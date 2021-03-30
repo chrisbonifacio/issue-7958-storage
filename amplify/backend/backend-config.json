@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "7958storage847d0975": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "files": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
